@@ -56,6 +56,20 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+nav {
+    max-width: 200%;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 3%;
+}
+
+nav a {
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    color: black;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -69,6 +83,57 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    margin-bottom: 1%;
+}
+
+.title {
+    margin-left: 1%;
+}
+
+.title p {
+    border-bottom: 1px dotted black;
+}
+
+.imgbkg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.blog {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.blog .post {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px dotted black;
+}
+
+.blog .post img {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.blog .post p {
+    border: none;
+}
+
+.blog .post button {
+    margin-bottom: 5%;
+    border-radius: 8%;
+    padding: 2% 5% 2% 5%;
+}
+
+.abtbtm {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 1%;
 }
 
 .top-content {
@@ -110,6 +175,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:nth-child(1) {
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
